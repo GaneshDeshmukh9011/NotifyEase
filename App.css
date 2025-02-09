@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar Links */
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  transform: translateY(-2px);
+  text-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: linear-gradient(145deg, #374151, #1F2937);
+  color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar Links */
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+  transform: translateX(10px);
+  text-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+.button {
+  background: linear-gradient(145deg, #3498db, #2980b9);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+input, select {
+  background: #f3f4f6;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(145deg, #2c3e50, #1a252f);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
